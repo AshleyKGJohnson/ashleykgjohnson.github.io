@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data analysis on Ashley K.G. Johnson</title>
+    <link>/categories/data-analysis/</link>
+    <description>Recent content in data analysis on Ashley K.G. Johnson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright> &amp;copy; Copyright Ashley K.G. Johnson {year}</copyright>
+    <lastBuildDate>Sat, 30 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ATUS Survey Analysis</title>
+      <link>/project/atus-survey-analysis/</link>
+      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/atus-survey-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ATUS Survey Analysis</title>
+      <link>/project/atus-survey-analysis/</link>
+      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/atus-survey-analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

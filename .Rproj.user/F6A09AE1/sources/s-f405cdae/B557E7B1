@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556718378360.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4159922786",
+    "id" : "B557E7B1",
+    "lastKnownWriteTime" : 1556723717,
+    "last_content_update" : 1556723717854,
+    "path" : "/cloud/project/content/author/admin/_index.md",
+    "project_path" : "content/author/admin/_index.md",
+    "properties" : {
+        "cursorPosition" : "9,28",
+        "scrollLine" : "4"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

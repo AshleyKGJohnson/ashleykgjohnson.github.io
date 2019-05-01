@@ -1,0 +1,47 @@
+---
+title: "NBA Data Analysis"
+author: "Ashley K.G. Johnson"
+date: "3/8/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+## Import data
+```{r}
+champs <- read_csv(file = "data/tidy_data/championsdata.csv")
+runners <- read_csv(file = "data/tidy_data/runnerupsdata.csv")
+
+champs <- champs %>%
+    mutate(Team = ifelse(Team == "Warriorrs","Warriors",Team)) %>%
+    mutate(Team = ifelse(Team == "'Heat'","Heat",Team)) %>%
+    mutate(Win = as.factor(Win)) %>%
+    mutate(Home = as.factor(Home))
+
+runners <- runners %>%
+    mutate(Win = as.factor(Win)) %>%
+    mutate(Home = as.factor(Home))
+
+all_teams = bind_rows("Champion" = champs, "Runner" = runners, .id = "rank")
+
+```
+
+```{r}
+champs$Team
+
+champs %>% 
+    select(Team) %>%
+    distinct()
+
+avg_scores <- all_teams %>%
+  group_by(Home) %>% 
+  summarize(mean(PTS))
+
+ggplot(all_teams, aes(x = Year, y = TP)) +
+  geom_bar(stat = "identity")
+
+```

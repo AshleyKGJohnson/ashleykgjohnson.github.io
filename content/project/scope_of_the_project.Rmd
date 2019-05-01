@@ -1,0 +1,22 @@
+---
+title: "Scope of the Project"
+author: "Ashley K.G. Johnson"
+date: "1/22/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## List of Objectives
+
+1. Objective 1
+2. Objective 2
+3. Objective 3
+
+
+## Album Cover
+![Cover of the single, "Ribbon in the Sky"](https://i3.ytimg.com/vi/9Cuuu6a01As/0.jpg)
+
+## Least favorite album cover
